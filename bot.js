@@ -95,6 +95,11 @@ function onMessageHandler (target, context, msg, self) {
     console.log("Message posted");
   }
   
+    if (commandName === 'never gonna give you up') {
+    client.say(target, `/me agree`);
+    console.log("Message posted");
+  }
+  
  }
 
 // Called every time the bot connects to Twitch chat
