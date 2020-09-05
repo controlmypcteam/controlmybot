@@ -1,4 +1,5 @@
-// Here is the bot code, Enjoy !
+// Here is the bot code
+// You can update it i guess
 
 const tmi = require('tmi.js');
 
