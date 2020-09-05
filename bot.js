@@ -4,7 +4,7 @@ const tmi = require('tmi.js');
 const opts = {
   identity: {
     username: "controlmybot",
-    password: "remplace it by a token"
+    password: "oauth token goes here"
   },
   channels: [
     "controlmypc",
