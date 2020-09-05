@@ -1,3 +1,5 @@
+// Here is the bot code, Enjoy !
+
 const tmi = require('tmi.js');
 
 // Define configuration options
