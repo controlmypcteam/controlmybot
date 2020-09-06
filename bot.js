@@ -81,7 +81,7 @@ function onMessageHandler (target, context, msg, self) {
   }
   
   if (commandName === '!help') {
-    client.say(target, `/me PLEASE READ THE RULES FIRST before you go here for the commands: https://stagingcmpc.glitch.me/commands.html`);
+    client.say(target, `/me PLEASE READ THE RULES FIRST (in the twitch panels) before you go here for the commands: https://stagingcmpc.glitch.me/commands.html`);
     console.log("!help");
   }
   
