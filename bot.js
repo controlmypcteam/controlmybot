@@ -7,7 +7,7 @@ const tmi = require('tmi.js');
 const opts = {
   identity: {
     username: "controlmybot",
-    password: "oauth token goes here"
+    password: "token goes here"
   },
   channels: [
     "controlmypc",
@@ -81,23 +81,23 @@ function onMessageHandler (target, context, msg, self) {
   }
   
   if (commandName === '!help') {
-    client.say(target, `/me The commands and rules are located beneath the stream on pc and in the about/info tab on the channel page on mobile.`);
+    client.say(target, `/me PLEASE READ THE RULES FIRST before you go here for the commands: https://stagingcmpc.glitch.me/commands.html`);
     console.log("!help");
   }
   
   if (commandName === '!timelapse') {
-    client.say(target, `/me Timelapse week 0-2 https://youtu.be/-vlVZdsQOGE Timelapse week 2-4 https://youtu.be/cwaopUlgci0 Timelapse week 4-6 https://youtu.be/DFRtCqNhQkk Timelapse week 6-8 https://youtu.be/rbAJLzGLwSU`);
-    console.log("Message posted");
+    client.say(target, `/me Timelapses from season 2: nothing yet... Timelapses from season 1: shorturl.at/lrI18`);
+    console.log("!timelapse");
   }
   
   if (commandName === 'pain') {
     client.say(target, `/me PAIN`);
-    console.log("Message posted");
+    console.log("pain");
   }
   
     if (commandName === 'never gonna give you up') {
     client.say(target, `/me agree`);
-    console.log("Message posted");
+    console.log("never gonna give you up");
   }
   
  }
